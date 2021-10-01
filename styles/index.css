@@ -1,0 +1,231 @@
+* {	
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+	background-color: rgb(0, 59, 94);
+	box-sizing:border-box;
+	padding: 0;	
+	margin: 0;
+}
+
+nav #nav-logo {
+    height: 80px;
+    border-radius:20px;
+    padding:0.5rem;
+    margin-right: auto;
+}
+
+.navbar-nav {
+	 margin-left: auto;
+}
+
+.nav-link {
+	color: white;
+	font-size: 25px;
+	margin:0 10px;
+}
+
+.bg-image {
+	background-image: url('../images/coding1.jpg');
+	max-width: 100%;
+	height: auto;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding: 100px 0px;
+}
+
+#profilepic{
+	width:250px;
+	height: auto;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#profilename {
+	color:white;
+	background-color: black;
+	margin: auto;
+  	width: 65%;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+#profiledescription {
+	color:white;
+	background-color: black;
+	margin: auto;
+  	width: 65%;
+  	text-align: center;
+}
+
+.about-me, .skills, .projects, .contact{
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(0, 59, 94);
+	padding: 20px;
+	margin: 0;
+	color:white;
+}
+
+.d-block {
+	width:100%;
+	height:auto;
+	padding: 50px
+}
+
+/*Start of about me*/
+
+.aboutme-paragraph{
+	font-size:25px;
+	padding:0;
+	margin: 30px 40px;
+}
+
+
+#resume {
+	justify-content: center;
+	margin: 20px;
+	background-color: rgb(0, 59, 94);
+}
+
+/*Start of my projects*/
+
+#my-projects {
+	justify-content: center;
+	display: block;
+	margin: auto;
+	padding: 50px 0px;
+	text-align: center;
+
+}
+
+#projectscard {
+	border-style: solid;
+	border-color: rgb(0, 59, 94);
+	margin:10px 30px;
+	width: 100%;
+
+}
+
+.card-body {
+	text-align: center;
+	color: white;
+	background-color: rgb(0, 59, 94);
+	margin: 0;
+}
+
+#projectsimage {
+	width:100%;
+	height: 400px;
+}
+
+/*Start of software skills*/
+
+.card-image {
+	width:10rem;
+	padding: 0;
+	margin: auto;
+	margin-top:20px
+}
+
+#card-body{
+	width:300px;
+	text-align: center;
+	margin-top:20px;
+	color:white;
+	background-color: rgb(0, 59, 94);
+	height: 100px;
+	position: relative;
+	bottom:0;
+	right:70px;
+}
+
+#card-title {
+	font-size:30px;
+	font-weight: bold;
+}
+
+#text-muted {
+	font-size:20px;
+}
+
+/*Start of contact me*/
+
+#message-section {
+	text-align: center;
+	justify-content: center;
+}
+
+#post {	
+	background-color: rgb(0, 59, 94);
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#post #text-box{
+	width: 100%;
+	height: 100px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+/*Start of footer section*/
+
+#footer {
+	display:flex;
+	padding:0;
+	justify-content: center;
+	list-style-type: none;
+	background-color: rgb(0, 59, 94);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin: 20px;
+ }
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/*End of footer section*/
+
+
+
+
+
+
+
+
+
+
+
+
